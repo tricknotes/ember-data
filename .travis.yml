@@ -3,6 +3,10 @@ language: node_js
 node_js:
   - "0.10"
 sudo: false
+cache:
+  directories:
+    - node_modules
+    - bower_components
 install:
 - npm config set registry http://registry.nodejitsu.com
 - "npm install"
