@@ -9,7 +9,6 @@ before_install:
 
 install:
   - npm install --no-optional
-  - ./node_modules/.bin/bower install
 script:
   - ./bin/lint-features
   - npm run-script test
